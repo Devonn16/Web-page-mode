@@ -1,0 +1,8 @@
+.check{
+    display:none;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+}

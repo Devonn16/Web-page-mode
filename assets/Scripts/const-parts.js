@@ -6,7 +6,7 @@ fetch('../assets/HTML/header.html')
     nav.innerHTML=data
     const parser = new DOMParser()
     const doc = parser.parseFromString(data, 'text/html')
-    eval(doc.querySelector('script').textContent)
+    // eval(doc.querySelector('script').textContent)
 })
 }
 header()
@@ -19,6 +19,6 @@ fetch('../assets/HTML/footer.html')
     footer_1.innerHTML=data
     const parser = new DOMParser()
     const doc = parser.parseFromString(data, 'text/html')
-    eval(doc.querySelector('script').textContent)
+    // eval(doc.querySelector('script').textContent)
 })}
 footer()
