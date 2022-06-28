@@ -1,0 +1,16 @@
+.check{
+    display:none;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin:0 auto;
+    
+}
+
+.change_btns{
+    padding-top: 10px;
+
+}

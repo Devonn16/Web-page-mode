@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/my\ image.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    
+}
+
+div{
+    padding: 10px;
+}
+
+.form-container {
+    margin: 0 auto;
+    transform: translateY(20%);
+    border-radius: 5px;
+    margin-bottom:10%;
+    padding: 10px;
+    width: auto;
+    background:rgba(250, 249, 249, 0.349);
+    box-shadow: 2px 2px  rgba(46, 44, 41, 0.548);
+    
+}
+.form-container:hover{
+    
+    box-shadow: 5px 5px9px 9px  rgba(24, 23, 23, 0.562);
+}
+
