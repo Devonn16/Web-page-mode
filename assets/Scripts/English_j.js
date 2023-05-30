@@ -29,7 +29,7 @@ function listGen(){
         }else if(storage.indexOf(num) > -1){
          // console.log('questions already'  + ' exists')
         }
-     // console.log(storage)
+      console.log(storage)
         
     }
     if (storage.length = data.length){
